@@ -1,0 +1,27 @@
+GET http://localhost:4000/tamu
+
+###
+GET http://localhost:4000/tamu/1
+
+###
+POST http://localhost:4000/tamu
+Content-Type: application/json
+
+{
+  "nama": "ahmad",
+  "alamat": "Jl. Budi 1",
+  "no_hp": "081234567890"
+}
+
+###
+PUT http://localhost:4000/tamu/1
+Content-Type: application/json
+
+{
+  "nama": "Buda",
+  "alamat": "Jl. Budi 1",
+  "no_hp": "081234567890"
+}
+
+###
+DELETE http://localhost:4000/tamu/1
